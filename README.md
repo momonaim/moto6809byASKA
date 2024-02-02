@@ -6,19 +6,18 @@
 <h5>(IMMEDIAT)</h5>
 
 -  **Immédiat (#$)**
--  
-      LD
-      ADD
-      SUB
-      ABD
-      OR
+-        LD, ADD, SUB, ABD, OR
 -  **Direct (<$)**
+-        LD, ST, ADD, SUB, AND, OR
 
 -  **Étendu (>$)**
+-        LD, ST, ADD, SUB, AND, OR
 
 -  **Étendu Indirect ([$ ])**
+-        ST,LD
 
 -  **Indexé ( , )**
+-        LEA
 
 -  **Inhérent**
--  
+-       INC, DEC, CLR, ABX, ASL,LSL,LSR, ASR, NOP, SWI 
