@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\Lenovo\Documents\NetBeansProjects\moto_6809_ASKA\dist\moto_6809_ASKA.jar</jar>
+  <outfile>C:\Users\Lenovo\Documents\NetBeansProjects\moto_6809_ASKA\output\MOTO6809.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\Lenovo\Documents\NetBeansProjects\moto_6809_ASKA\ico.ico</icon>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>true</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>1.0.4</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.5.1.1</fileVersion>
+    <txtFileVersion>1.5</txtFileVersion>
+    <fileDescription>MOTO6809 Emulator </fileDescription>
+    <copyright>All Rights Reserved from ASKA</copyright>
+    <productVersion>1.5.1.1</productVersion>
+    <txtProductVersion>1.5</txtProductVersion>
+    <productName>MOTO6809 Emulator by ASKA</productName>
+    <companyName>ASKA</companyName>
+    <internalName>MOTO6809</internalName>
+    <originalFilename>MOTO6809.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+</launch4jConfig>
