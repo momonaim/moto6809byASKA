@@ -6,7 +6,7 @@
 <h5>(IMMEDIAT)</h5>
 
 -  **Immédiat (#$)**
--        LD, ADD, SUB, ABD, OR
+-        LD, ADD, SUB, AND, OR
 -  **Direct (<$)**
 -        LD, ST, ADD, SUB, AND, OR
 
@@ -17,7 +17,7 @@
 -        ST,LD
 
 -  **Indexé ( , )**
--        LEA
+-        LEAX, LEAY
 
 -  **Inhérent**
 -       INC, DEC, CLR, ABX, ASL,LSL,LSR, ASR, NOP, SWI 
