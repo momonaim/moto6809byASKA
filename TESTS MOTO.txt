@@ -1,11 +1,11 @@
-//ÉTENDU 
+** //ÉTENDU **
 NOP
 LDA #$FF
 STA >$0010
 LDB >$0010
 SWI
 END
-//IMMÉDIAT
+** //IMMÉDIAT **
 LDA #$03
 LDB #$4F
 ADDA #$2F
@@ -16,7 +16,7 @@ LDU #$110D
 LDS #$0353
 LDD #$1F03
 END
-//INHÉRENT
+** //INHÉRENT **
 NOP
 CLRA
 INCA
@@ -29,11 +29,11 @@ LSRB
 ABX
 ASRB
 END
-//DIRECT
+** //DIRECT **
 
-//ÉTENDU INDIRECT 
+** //ÉTENDU INDIRECT **
 
-//INDEXÉ 
+** //INDEXÉ **
 LEAX ,Y++
 LEAY ,--X
 END
